@@ -9,7 +9,7 @@ ul li > span {
   background-color: orange;
   color: white;
 }
-#special + li {
+li#special + li {
   border: 3px solid red; 
 }
 #special ~ li {
