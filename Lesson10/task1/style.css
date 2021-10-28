@@ -15,13 +15,14 @@ a:hover {
 button:active {
   border: 3px solid red;
 }
-button:disabled {
+button:disabled.some-button {
+  pointer-events: none;
   border: 2px dashed grey;
 }
-button {
+button:enabled {
   color: white;
 }
-button:hover {
+button:enabled:hover {
   background-color: gray;
 }
 input:focus {
