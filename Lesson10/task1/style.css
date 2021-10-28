@@ -20,7 +20,7 @@ button:disabled.some-button {
   border: 2px dashed grey;
 }
 button:enabled {
-  color: white;
+  background-color: white;
 }
 button:enabled:hover {
   background-color: gray;
