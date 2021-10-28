@@ -19,11 +19,9 @@ button:disabled.some-button {
   pointer-events: none;
   border: 2px dashed grey;
 }
-button:enabled {
-  background-color: white;
-}
 button:enabled:hover {
   background-color: gray;
+  color: white;
 }
 input:focus {
   background-color: orange;
