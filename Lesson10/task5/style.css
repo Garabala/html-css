@@ -11,7 +11,7 @@ li {
   color: blue;
 }
 p {
-  background-color: orange;
+  background-color: yellow;
 }
 input {
   border: 3px solid red;
@@ -32,7 +32,7 @@ div:nth-of-type(3n) p {
   background-color: yellow;
 }
 div:nth-of-type(3n) p:last-of-type{
-  border: 5px solid red;
+  border: 5px solid white;
 }
 div:nth-of-type(3n) em {
   color: white;
