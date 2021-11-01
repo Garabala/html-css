@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 40px;
+  width: 100%;
+  background-color: darkturquoise;
+  position: fixed;
+}
+
+.navigation {
+  height: 40px;
+  color: white;
+}
+
+.nav-list {
+  height: 40px;
+}
+
+.nav-item {
+  margin-left: 16px;
+  float: left;
+  
+}
+
+.content {
+  height: 5000px;
+  background-color: beige;
+}
+
+.head {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  margin: 30% 30%;
+  position: absolute;
+}
+
+.ear {
+  height: 40px;
+  width: 60px;
+  color: brown;
+}
+
+.ear_right {
+  position: absolute;
+  
+}
