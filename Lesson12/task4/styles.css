@@ -21,6 +21,8 @@
 .nav-item {
   margin-left: 16px;
   float: left;
+  list-style: none;
+  line-height: 100%; 
   
 }
 
@@ -33,17 +35,43 @@
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  margin: 30% 30%;
+  margin: calc(50%);
   position: absolute;
 }
 
 .ear {
-  height: 40px;
-  width: 60px;
-  color: brown;
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  position: absolute;
 }
 
 .ear_right {
-  position: absolute;
-  
+  margin-left: 100%;
+  margin-top: -60px;
+}
+
+.ear_left {
+  margin-left: -20%;
+  margin-top: -60px;
+}
+
+.eye {
+  height: 30px;
+  width: 30px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.eye_right {
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  float: right;
+}
+
+.eye_left {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 80px;
 }
