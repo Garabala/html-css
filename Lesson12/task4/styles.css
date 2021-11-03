@@ -34,7 +34,7 @@
   width: 200px;
   background-color: aquamarine;
   top: calc(50% - (40% /2));
-  left: calc(50% - (34% /2));
+  left: calc(50% - (33.5% /2));
   position: absolute;
 }
 
