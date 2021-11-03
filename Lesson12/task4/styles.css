@@ -16,7 +16,7 @@
 .nav-item {
   color: white;
   height: 40px;
-  line-height: 2em;
+  line-height: 2.5em;
   float: left;
   margin-left: 16px;
   list-style: none;
@@ -32,8 +32,8 @@
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  top: calc(50% - (10% / 2)); 
-  left: calc(50% - (10% / 2));
+  top: calc(50% - (50% / 2)); 
+  left: calc(50% - (50% / 2));
   position: absolute;
 }
 
