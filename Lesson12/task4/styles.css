@@ -9,21 +9,18 @@
   position: fixed;
 }
 
-.navigation {
-  height: 40px;
-  color: white;
-}
-
 .nav-list {
-  height: 40px;
+  margin: auto;
 }
 
 .nav-item {
-  margin-left: 16px;
+  color: white;
+  height: 40px;
+  line-height: 2em;
   float: left;
+  margin-left: 16px;
   list-style: none;
-  line-height: 100%; 
-  
+  position: relative;
 }
 
 .content {
@@ -35,7 +32,8 @@
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  margin: calc(50%);
+  top: calc(50% - (10% / 2)); 
+  left: calc(50% - (10% / 2));
   position: absolute;
 }
 
