@@ -1,0 +1,13 @@
+div.block {
+  display: flex;
+  background-color: coral;
+  margin: 8px;
+  height: 100px;
+  min-width: 100px;
+  flex-shrink: 1;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;  
+}
