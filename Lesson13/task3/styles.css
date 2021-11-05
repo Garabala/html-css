@@ -12,12 +12,12 @@
 .navigation {
   display: flex;
   list-style: none;
-  align-items: center;
-  margin: 0;  
+  margin: 0;
+  padding: 0;
 }
 
 .nav_item {
-  margin-right: 16px;
+  margin-left: 16px; 
 }
 
 .footer {
