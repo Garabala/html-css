@@ -1,11 +1,17 @@
 * {
   box-sizing: border-box;
   width: 100%;
-  min-width: 300px;
 }
 
 header {
   text-align: center;
+}
+
+.articles-list {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  flex-basis: 300px; 
 }
 
 .article {
