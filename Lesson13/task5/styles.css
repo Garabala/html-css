@@ -1,7 +1,4 @@
-* {
-  box-sizing: border-box;
-  width: 100%;
-}
+
 
 header {
   text-align: center;
@@ -9,13 +6,16 @@ header {
 
 .articles-list {
   display: flex;
-  flex-direction: column;
   min-width: 300px;
-  flex-basis: 300px; 
 }
 
 .article {
+  display: flex;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
+  
 }
