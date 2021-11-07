@@ -13,7 +13,7 @@ header {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  flex-basis: 15%;
+  flex-basis: 16%;
   flex-grow: 1;
   min-width: 300px;
 }
