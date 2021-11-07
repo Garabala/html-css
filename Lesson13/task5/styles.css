@@ -16,5 +16,4 @@ header {
   background-color: bisque;
   flex-basis: 15%;
   flex-grow: 1;
-  min-width: 300px;
 }
