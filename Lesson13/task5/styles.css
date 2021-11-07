@@ -6,6 +6,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  min-width: 300px;
   
 }
 
@@ -13,7 +14,7 @@ header {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  flex-basis: 17%;
+  flex-basis: 15%;
   flex-grow: 1;
-  min-width: 300px;
+  
 }
