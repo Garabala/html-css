@@ -1,21 +1,17 @@
-
-
 header {
   text-align: center;
 }
 
 .articles-list {
   display: flex;
-  min-width: 300px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .article {
-  display: flex;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  flex-wrap: wrap;
-  flex-direction: row;
-  flex-grow: 1;
-  
+  min-width: 300px;
+  flex-basis: 300px;
 }
