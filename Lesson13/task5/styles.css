@@ -10,7 +10,6 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  min-width: 300px;
 }
 
 .article {
@@ -19,4 +18,5 @@ header {
   background-color: bisque;
   flex-basis: 15%;
   flex-grow: 1;
+  min-width: 300px;
 }
