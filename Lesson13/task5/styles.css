@@ -6,9 +6,6 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex-shrink: 1;
-  flex-grow: 1;
-  
 }
 
 .article {
@@ -17,4 +14,6 @@ header {
   background-color: bisque;
   flex-basis: 20%;
   min-width: 300px;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
