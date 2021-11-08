@@ -8,7 +8,6 @@ header {
 
 .articles-list {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -17,5 +16,4 @@ header {
   padding: 16px;
   background-color: bisque;
   flex: 1 0 300px;
-  min-width: 300px;
 }
