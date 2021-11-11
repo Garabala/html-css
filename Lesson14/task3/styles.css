@@ -3,24 +3,24 @@
 }
 
 .dropdown {
-  margin-top: 16px;
+  background-color: darkgreen;
+  opacity: 0.8;
+  margin: 16px;
   cursor: pointer;
   display: inline-block;
   position: relative;
   padding: 16px;
   height: 48px;
-}
-
-.menu-button {
-  background-color: darkgreen;
-  padding: 16px;
-  opacity: 0.8;
   color: white;
   font-size: 16px;
 }
 
-.menu-button:hover {
+.dropdown:hover {
   opacity: 1;
+}
+
+.dropdown:hover .menu-list {
+  display: block;
 }
 
 .menu-list {
@@ -28,7 +28,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  top: 50px;
+  top: 49px;
   background-color: lightcyan;
   color: black;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
@@ -45,9 +45,7 @@
   padding: 16px;
 }
 
-.dropdown:hover .menu-list {
-  display: block;
-}
+
 
 
 
