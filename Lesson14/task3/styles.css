@@ -8,6 +8,7 @@
   display: inline-block;
   position: relative;
   padding: 16px;
+  height: 50px;
 }
 
 .menu-button {
@@ -18,7 +19,7 @@
   font-size: 16px;
 }
 
-.menu-button:hover  {
+.menu-button:hover {
   opacity: 1;
 }
 
