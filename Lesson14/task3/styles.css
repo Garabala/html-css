@@ -9,11 +9,11 @@
   position: relative;
   padding: 16px;
   color: white;
+  opacity: 0.8;
 }
 
 .menu-button {
   background-color: darkgreen;
-  opacity: 0.8;
   padding: 16px;
 }
 
