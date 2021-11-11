@@ -3,11 +3,12 @@
 }
 
 .dropdown {
-  margin: 16px;
+  margin-top: 16px;
   cursor: pointer;
   display: inline-block;
   position: relative;
   padding: 16px;
+  color: white;
 }
 
 .menu-button {
@@ -18,7 +19,6 @@
 
 .menu-button:hover  {
   opacity: 1;
-  color: white;
   font-size: 16px;
 }
 
