@@ -11,12 +11,12 @@
 
 .text .tooltip {
   visibility: hidden;
-  width: 120px;
-  left: 50%;
+  width: 100px;
+  left: 60%;
   margin-left: -60px;
   background-color: grey;
   color: white;
-  text-align: center;
+  
   padding: 8px;
   border-radius: 4px;
   position: absolute;
