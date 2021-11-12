@@ -12,7 +12,6 @@
 .text .tooltip {
   visibility: hidden;
   width: 120px;
-  top: 100%;
   left: 50%;
   margin-left: -60px;
   background-color: grey;
