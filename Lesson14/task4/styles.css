@@ -10,10 +10,7 @@
 }
 
 .text .tooltip {
-  visibility: hidden;
-  width: 100px;
-  left: 60%;
-  margin-left: -60px;
+  display: none;
   background-color: grey;
   color: white;
   padding: 8px;
@@ -23,6 +20,6 @@
 }
 
 .text:hover .tooltip {
-  visibility: visible;
+  display: block;
   bottom: -40px;
 }
