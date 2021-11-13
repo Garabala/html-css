@@ -1,4 +1,4 @@
-* {
+html {
   box-sizing: border-box;
   margin: 32px;
   font-family: Roboto, sans-serif;
@@ -16,7 +16,6 @@ p {
 }
 
 .technology {
-  margin: 0;
   font-weight: 900;
   letter-spacing: 3px;
   font-size: 24px;
@@ -29,6 +28,5 @@ a {
 }
 
 .description {
-  margin: 0;
   color: grey;
 }
