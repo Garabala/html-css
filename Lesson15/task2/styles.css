@@ -6,13 +6,16 @@ html {
 }
 
 header {
-  font-size: 74px;
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 50%;
   margin: auto;
+}
+
+h1 {
+  font-size: 74px;
 }
 
 div {
