@@ -1,14 +1,18 @@
+* {
+  box-sizing: border-box;
+}
 html {
   font-family: Verdana;
 }
 
-h1 {
+header {
   font-size: 74px;
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 50%;
+  margin: auto;
 }
 
 div {
