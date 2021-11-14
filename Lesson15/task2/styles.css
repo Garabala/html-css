@@ -5,18 +5,14 @@ html {
   font-family: Verdana;
 }
 
-header {
-  width: 50%;
-  margin: 16px auto;
-}
-
 h1 {
   font-size: 74px;
   white-space: nowrap;
   text-overflow: ellipsis;
   text-align: center;
   overflow: hidden;
-  
+  margin: 16px auto;
+  width: 50%;
 }
 
 div {
