@@ -19,10 +19,11 @@ h1 {
 }
 
 div {
+  display: flex;
   height: 200px;
   background-color: coral;
   color: white;
   text-transform: uppercase;
-  text-align: center;
-  line-height: 200px;
+  justify-content: center;
+  align-items: center;
 }
