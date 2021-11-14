@@ -1,12 +1,6 @@
 html {
-  margin: 32px;
   font-family: Roboto, sans-serif;
   font-size: 18px;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
 }
 
 h1 {
