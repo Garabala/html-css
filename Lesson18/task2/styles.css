@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-video {
+  width: 500px;
+  display: block;
+  margin: 200px auto;
+}
