@@ -7,6 +7,10 @@ table {
   border-collapse: collapse;
 }
 
+.table-border {
+  border: 1px solid black;
+}
+
 td,
 tr {
   height: 50px;
