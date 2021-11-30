@@ -4,25 +4,26 @@
 
 .container {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
-.fa-battery-full {
+i:nth-child(1) {
   font-size: 16px;
 }
 
-.fa-battery-three-quarters {
+i:nth-child(2) {
   font-size: 32px;
 }
 
-.fa-battery-half {
+i:nth-child(3) {
   font-size: 64px;
 }
 
-.fa-battery-quarter {
+i:nth-child(4) {
   font-size: 128px;
 }
 
-.fa-battery-empty {
+i:nth-child(5) {
   font-size: 256px;
 }
