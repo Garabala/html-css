@@ -24,6 +24,7 @@
 }
 
 .rect {
+  position: relative;
   height: 4px;
   width: 10px;
   background-color: black;
