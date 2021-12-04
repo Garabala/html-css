@@ -28,6 +28,7 @@
   background-color: black;
   border-radius: 2px;
   animation: moving 2s infinite, blinking 2s linear infinite;
+  animation-direction: alternate;
 }
 
 @keyframes moving {
