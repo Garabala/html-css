@@ -5,11 +5,9 @@
 .container {
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .spinner {
-  position: absolute;
   align-items: center;
   margin-top: 50vh;
 }
