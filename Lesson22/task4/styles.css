@@ -4,32 +4,48 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  height: 100vh;
 }
 
-.block {
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: white;
+.spinner {
   margin: auto;
   text-transform: uppercase;
-  text-align: center;
-  width: 250px;
-  height: 100px;
-  border-radius: 10px;
-  background-color: coral;
-  line-height: 100px;
-  animation: move 2s ease;
-  animation-fill-mode: forwards;
+  font-size: 16px;
+  font-family: monospace;
+  animation: blinking 2s infinite linear;
 }
 
-@keyframes move {
+.circle {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border: 4px solid;
+  border-radius: 50%;
+  border-top-color: black;
+  border-right-color: lightgray;
+  border-bottom-color: lightgray;
+  border-left-color: lightgray;
+  margin-bottom: 8px;
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rotate {
   from {
-    top: -100px;
+    transform: rotate(-360deg);
   }
   to {
-    top: calc(50vh - 50px);
+    transform: rotate(0);
   }
 }
