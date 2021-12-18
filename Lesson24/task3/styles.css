@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  font-size: 16px;
+}
+
+.header {
+  background: linear-gradient(60deg, red, orange);
+  color: white;
+  position: absolute;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  line-height: 32px;
+  height: 32px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.footer {
+  background-color: #e5e5e5;
+  padding: 0.5em;
+}
+
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+}
+
+.section {
+  width: 60%;
+  padding: 0.5em;
+}
+
+.news {
+  width: 20%;
+  padding: 0.5em;
+}
+
+.section {
+  font-size: 1.25em;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-weight: 700;
+  font-size: 1.125em;
+}
+
+.nav-list {
+  padding: 0;
+}
+
+.nav-list-item {
+  list-style-type: none;
+  padding-bottom: 0.5em;
+}
+
+.nav-list-link {
+  color: white;
+  line-height: 2em;
+  background-color: #808080;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
