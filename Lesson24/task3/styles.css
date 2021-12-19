@@ -11,8 +11,10 @@ html {
 .header {
   background: linear-gradient(60deg, red, orange);
   color: white;
-  position: absolute;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 h1 {
@@ -24,12 +26,6 @@ h1 {
 .main {
   display: flex;
   flex-direction: row;
-  position: relative;
-}
-
-.footer {
-  background-color: #e5e5e5;
-  padding: 0.5em;
 }
 
 .navigation {
@@ -73,15 +69,27 @@ h1 {
 
 .nav-list-item {
   list-style-type: none;
-  padding-bottom: 0.5em;
+  line-height: 2em;
+  background-color: #808080;
+  margin-bottom: 0.5em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .nav-list-link {
   color: white;
-  line-height: 2em;
-  background-color: #808080;
+  padding-left: 0.5em;
   text-decoration: none;
-  text-overflow: ellipsis;
-  overflow: hidden;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #e5e5e5;
+  padding: 0.5em;
+  position: absolute;
+  bottom: 0px;
   width: 100%;
 }
