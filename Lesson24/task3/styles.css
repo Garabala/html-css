@@ -85,7 +85,7 @@ html {
   justify-content: center;
   background-color: #e5e5e5;
   padding: 0.5em;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
 }
