@@ -20,6 +20,7 @@ html {
 .main {
   display: flex;
   flex-direction: row;
+  margin: auto;
 }
 
 .navigation {
