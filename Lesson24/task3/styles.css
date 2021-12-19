@@ -69,11 +69,13 @@ html {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .nav-list-link {
   color: white;
-  padding-left: 0.5em;
+
   text-decoration: none;
 }
 
