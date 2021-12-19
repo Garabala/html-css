@@ -17,12 +17,6 @@ html {
   justify-content: center;
 }
 
-h1 {
-  text-align: center;
-  line-height: 32px;
-  height: 32px;
-}
-
 .main {
   display: flex;
   flex-direction: row;
