@@ -6,7 +6,6 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;
   font-size: 16px;
-  height: 100%;
 }
 
 .header {
@@ -21,8 +20,6 @@ html {
 .main {
   display: flex;
   flex-direction: row;
-  flex: 1 0 auto;
-  height: 100%;
 }
 
 .navigation {
@@ -90,5 +87,4 @@ html {
   padding: 0.5em;
   bottom: 0px;
   width: 100%;
-  flex: 0 0 auto;
 }
