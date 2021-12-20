@@ -21,7 +21,7 @@ html {
 .main {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  flex: 1 0 auto;
 }
 
 .navigation {
@@ -88,6 +88,7 @@ html {
   position: absolute;
   background-color: #e5e5e5;
   padding: 0.5em;
+  bottom: 0px;
   width: 100%;
+  flex: 0 0 auto;
 }
-
