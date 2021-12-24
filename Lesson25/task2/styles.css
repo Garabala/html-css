@@ -35,7 +35,7 @@ span {
   min-width: 33.3%;
 }
 
-@media screen and (min-width: 599px) {
+@media screen and (min-width: 600px) {
   .content {
     display: flex;
     flex-grow: 2;
