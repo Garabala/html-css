@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+span {
+  text-transform: lowercase;
+  font-family: Verdana;
+  padding: 8px;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.navigation {
+  background-color: #ff7f50;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+  min-width: 33.3%;
+}
+
+.list {
+  background-color: #006400;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+  min-width: 33.3%;
+}
+
+.news {
+  background-color: #0ff;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+  min-width: 33.3%;
+}
+
+@media screen and (min-width: 600px) {
+  .content {
+    display: flex;
+    flex-grow: 2;
+  }
+}
+
+@media screen and (min-width: 899px) {
+  .main {
+    display: flex;
+  }
+}
