@@ -16,7 +16,6 @@ span {
   min-height: 200px;
   display: flex;
   flex-grow: 1;
-  min-width: 33.3%;
 }
 
 .list {
@@ -24,21 +23,19 @@ span {
   min-height: 200px;
   display: flex;
   flex-grow: 1;
-  min-width: 33.3%;
 }
 
 .news {
   background-color: #0ff;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
-  min-width: 33.3%;
+  flex-grow: 2;
 }
 
 @media screen and (min-width: 600px) {
   .content {
     display: flex;
-    flex-grow: 2;
+    flex-grow: 3;
   }
 }
 
