@@ -29,13 +29,13 @@ span {
   background-color: #0ff;
   min-height: 200px;
   display: flex;
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 @media screen and (min-width: 600px) {
   .content {
     display: flex;
-    flex-grow: 3;
+    flex-grow: 2;
   }
 }
 
