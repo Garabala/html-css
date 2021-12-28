@@ -47,11 +47,12 @@ html {
   overflow: hidden;
   white-space: nowrap;
   background-color: #808080;
+  height: 2em;
+  line-height: 2em;
 }
 
 .nav-list-link {
   color: white;
-  height: 2em;
   text-decoration: none;
 }
 
