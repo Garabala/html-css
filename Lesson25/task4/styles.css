@@ -35,21 +35,21 @@ html {
 }
 
 .nav-list {
-  list-style-type: none;
   padding: 0;
 }
 
 .nav-list-item {
+  list-style-type: none;
   margin-bottom: 0.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  background-color: #808080;
 }
 
 .nav-list-link {
-  background-color: #808080;
   color: white;
   height: 2em;
   text-decoration: none;
