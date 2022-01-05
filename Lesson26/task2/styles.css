@@ -14,7 +14,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: #c47;
-  margin: 16px;
+  margin: 8px;
 }
 @media screen and (max-width: 599px) {
   .square {
@@ -36,6 +36,9 @@ body {
   .container {
     display: flex;
     flex-direction: row;
+  }
+  
+  .square {
     margin: 8px;
   }
 }
