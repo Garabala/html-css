@@ -1,5 +1,0 @@
-Expected to return a value at the end of function 'run'
-Split 'var' declarations into multiple statements
-Unexpected var, use let or const instead
-Expected '===' and instead saw '=='
-'c' is not defined
